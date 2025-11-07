@@ -1,0 +1,1827 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+}
+
+.top-bar{
+    width: 100%;
+    height: 34px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+.nav{
+    width: 100%;
+    height: 96px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nav-container{
+    width: 100%;
+    height: 66px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    border: 1px solid #E7E7E7;
+}
+
+.search-input{
+    width: 259px;
+    height: 40px;
+
+    border: 1px solid #E7E7E7;
+    border-radius: 2px;
+}
+
+ul{
+    width: 391px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+
+.brand-logo{
+    width: 95px;
+    height: 24px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+
+/* Hero Section -------------------------------------------------------- */
+
+.hero-section{
+    width: 100%;
+    height: 910px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boxes-image{
+    width: 940px;
+    position: absolute;
+    bottom: right;
+    float: right;
+    overflow: hidden;
+}
+
+.hero-center{
+    width: 80%;
+    height: 70%;
+    background-color: #F6F8FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content-wrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-main-content{
+    width: 590px;
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.action-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.trust-section{
+    width: 540px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.primary-button{
+    width: 253px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #F6F8FA;
+    background-color: #3B61FF;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    transition: 0.5s all ease;
+}
+
+.primary-button:hover{
+    background-color: #F6F8FA;
+    border: 1px solid #3B61FF;
+    color: #3B61FF;
+}
+
+.outline-button{
+    width: 308px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2F2F2F;
+    color: #2F2F2F;
+    background-color: #F6F8FA;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    transition: 0.5s all ease;
+}
+
+.outline-button:hover{
+    background-color:#2F2F2F;
+    color: #F6F8FA;
+    border: 1px solid #F6F8FA;
+}
+
+/* Products Section -------------------------------------------- */
+
+.products-section{
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-center{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-header{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.products-title{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.products-navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+}
+
+.top-bar{
+    width: 100%;
+    height: 34px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+.nav{
+    width: 100%;
+    height: 96px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nav-container{
+    width: 100%;
+    height: 66px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    border: 1px solid #E7E7E7;
+}
+
+.search-input{
+    width: 259px;
+    height: 40px;
+
+    border: 1px solid #E7E7E7;
+    border-radius: 2px;
+}
+
+ul{
+    width: 391px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+
+.brand-logo{
+    width: 95px;
+    height: 24px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+
+/* Hero Section -------------------------------------------------------- */
+
+.hero-section{
+    width: 100%;
+    height: 910px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boxes-image{
+    width: 940px;
+    position: absolute;
+    bottom: right;
+    float: right;
+    overflow: hidden;
+}
+
+.hero-center{
+    width: 80%;
+    height: 70%;
+    background-color: #F6F8FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content-wrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-main-content{
+    width: 590px;
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.action-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.trust-section{
+    width: 540px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.primary-button{
+    width: 253px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #F6F8FA;
+    background-color: #3B61FF;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    transition: 0.5s all ease;
+}
+
+.primary-button:hover{
+    background-color: #F6F8FA;
+    border: 1px solid #3B61FF;
+    color: #3B61FF;
+}
+
+.outline-button{
+    width: 308px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2F2F2F;
+    color: #2F2F2F;
+    background-color: #F6F8FA;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    transition: 0.5s all ease;
+}
+
+.outline-button:hover{
+    background-color:#2F2F2F;
+    color: #F6F8FA;
+    border: 1px solid #F6F8FA;
+}
+
+/* Products Section -------------------------------------------- */
+
+.products-section{
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-center{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-header{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.products-title{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.products-navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.products-grid{
+    width: 100%;
+    height: 475px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-card-wrapper{
+    width: 304px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product-card{
+    width: 304px;
+    height: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F8FA;
+    border-radius: 16px;
+}
+
+/* Sustainability Section ----------------------------- */
+
+.sustainability-section{
+    width: 100%;
+    height: 825px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sustainability-center{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sustainability-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sustainability-title{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.sustainability-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sustainability-card-primary{
+    width: 536px;
+    height: 592px;
+    background-color: #5F6455;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sustainability-card-secondary{
+    width: 536px;
+    height: 592px;
+    background-color: #E7E1C3;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sustainability-card-content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-top-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-top-section-alt{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-button{
+    width: 118px;
+    height: 48px;
+    border: 1px solid #2F2F2F;
+    border-radius: 2px;
+    background-color: #E7E1C3;
+    color: #2F2F2F;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all ease;
+}
+
+.card-button:hover{
+    border: 1px solid #2F2F2F;
+    background-color: #2F2F2F;
+    color: #E7E1C3;
+}
+
+.features-grid{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-bottom-section-alt{
+    width: 536px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    pointer-events: none;
+    position: absolute;
+}
+
+.card-image{
+    position: absolute;
+}
+
+/* Difference Section */
+
+.difference-section{
+    width: 100%;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.difference-center{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.difference-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.difference-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.difference-card{
+    width: 368px;
+    height: 226px;
+    border: 1px solid #E7E7E7;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.difference-card-content{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Software Section --------------------------------------------------------------- */
+
+.software-section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.software-center{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.software-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.software-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.software-card-primary{
+    width: 560px;
+    height: 426px;
+    border-radius: 16px;
+    background-color: #5F6455;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.software-image-container{
+    width: 504px;
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    pointer-events: none;
+}
+
+.software-image{
+    position: absolute;
+    overflow: hidden;
+}
+
+.software-image-container-alt{
+    width: 559px;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    pointer-events: none;
+}
+
+.software-card-content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.software-card-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.features-circle{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.features-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.feature-item{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 24px;
+    background-color: #D0D4BD;
+}
+
+.software-button-primary{
+    width: 149px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #5F6455;
+    transition: 0.5s all ease;
+}
+.software-button-primary:hover{
+    color: #5F6455;
+    background-color: #FFFFFF;
+}
+
+.software-card-secondary{
+    width: 560px;
+    height: 426px;
+    border-radius: 16px;
+    background-color: #F9F5ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.software-card-content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.software-card-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.features-circle{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.features-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.feature-item-alt{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 24px;
+    background-color: #E7E1C3;
+}
+
+.software-button-secondary{
+    width: 149px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2F2F2F;
+    border-radius: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #2F2F2F;
+    background-color: #F9F5ED;
+    transition: 0.5s all ease;
+}
+.software-button-secondary:hover{
+    color: #F9F5ED;
+    background-color: #2F2F2F;
+}
+
+.software-icon{
+    width: 16px;
+    height: 16px;
+}
+
+/* Services Section */
+
+.services-section{
+    width: 100%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-center{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.services-cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.service-card{
+    width: 368px;
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F8FA;
+    border-radius: 16px;
+}
+
+.service-card-content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.service-image-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Needs Section */
+
+.needs-section{
+    width: 100%;
+    height: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.needs-center{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.needs-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.needs-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.needs-cards{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.needs-card-primary{
+    width: 516px;
+    height: 752px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(resource/images/needs/1.png);
+    border-radius: 16px;
+}
+
+.needs-card-secondary{
+    width: 516px;
+    height: 752px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(resource/images/needs/2.png);
+    border-radius: 16px;
+}
+
+.needs-card-tertiary{
+    width: 516px;
+    height: 752px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(resource/images/needs/3.png);
+    border-radius: 16px;
+}
+
+.needs-card-content{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.needs-top-section{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.outline-button-light{
+    width: 200px;
+    height: 48px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all ease;
+}
+
+.outline-button-light:hover{
+    background-color: #FFFFFF;
+    color: #82D4E9;
+}
+
+.outline-button-dark{
+    width: 200px;
+    height: 48px;
+    border: 2px solid #2F2F2F;
+    border-radius: 2px;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #2F2F2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all ease;
+}
+
+.outline-button-dark:hover{
+    background-color: #2F2F2F;
+    color: #EAE8DB;
+}
+
+.needs-bottom-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.needs-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Testimonials Section */
+
+.testimonials-section{
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-center{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonials-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.testimonial-card-primary{
+    width: 368px;
+    height: 668px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F5ED;
+    border-radius: 16px;
+}
+
+.testimonial-card-secondary{
+    width: 368px;
+    height: 668px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E1C3;
+    border-radius: 16px;
+}
+
+.testimonial-card-tertiary{
+    width: 368px;
+    height: 668px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECDFD8;
+    border-radius: 16px;
+}
+
+.testimonial-card-content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.testimonial-logo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.testimonial-text{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.testimonial-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.testimonial-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Team Section */
+
+.team-section{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-center{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.team-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-card-primary{
+    width: 552px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F8FA;
+    border-radius: 16px;
+}
+
+.team-cards-secondary{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-card-secondary{
+    width: 552px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F8FA;
+    border-radius: 16px;
+}
+
+.team-card-tertiary{
+    width: 552px;
+    height: 270x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F8FA;
+    border-radius: 16px;
+}
+
+.team-card-content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-top-section{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team-bottom-section{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.team-action-button{
+    width: 119px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B61FF;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    transition: 0.5s all ease;
+}
+
+.team-action-button:hover{
+    background-color: #ffffff;
+    border: 1px solid #3B61FF;
+    color: #3B61FF;
+}
+
+/* Footer Section */
+
+.footer-section{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 80%;
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #F6F8FA;
+}
+
+.footer-center{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item{
+    width: 310px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-middle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-column-primary{
+    width: 286px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-column-secondary{
+    width: 160px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.footer-links-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.footer-column-tertiary{
+    width: 160px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-highlight{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.highlight-badge{
+    width: 77px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B61FF;
+    border-radius: 2px;
+}
+
+.footer-column-quaternary{
+    width: 160px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links-top{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links-bottom{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: 75px;
+    border-top: 1px solid #C5C5C5;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #2F2F2F;
+}
+
+/* Page Footer */
+
+footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-footer{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.payment-logos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-right{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Text Styles */
+
+.dark-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #2F2F2F;
+}
+
+.light-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #949494;
+}
+
+.light-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.highlight-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.feature-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.main-heading{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #2F2F2F;
+}
+
+.section-title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    color: #2F2F2F;
+}
+
+.section-subtitle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    color: #949494;
+}
+
+.subtitle-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #606162;
+}
+
+.description-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #2F2F2F;
+}
+
+.nav-dot{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #C5C5C5;
+    background-color: #ffffff;
+    border-radius: 200px;
+    transition: 0.5s all ease;
+}
+
+.nav-dot:hover{
+    border: 1px solid #585858;
+    background-color: #ffffff;
+}
+
+.product-name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.nav-buttons{
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light-label{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.dark-label{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #2F2F2F;
+}
+
+.footer-note{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8px;
+    color: #2F2F2F;
+}
+
+.feature-description{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #2F2F2F;
+}
+
+.card-heading-light{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.card-heading-dark{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    color: #2F2F2F;
+}
+
+.card-subheading{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #949494;
+}
+
+.service-description{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.testimonial-name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.testimonial-role{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.footer-category{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.payment-icon{
+    width: 40px;
+    height: 25px;
+}
